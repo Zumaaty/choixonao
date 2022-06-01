@@ -77,7 +77,7 @@
                 unableBtnPlay = true;
             }
         }else if(player==1){
-            $(".notice-result").text("Xnxx chiến thắng!!");
+            $(".notice-result").text("X chiến thắng!!");
             $(".notice-result").css("display", "block");
             jQuery("#khung-ban-co-1").css('opacity', '0.6');
             if(isWatchOnly(socket.id)==false){

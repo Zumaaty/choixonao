@@ -22,7 +22,7 @@ $(document).ready(function(){
         }
     });
     //
-    for(let i=1;i<=12;i++){
+    for(let i=1;i<=20;i++){
         $("#my-div-table-id-"+i).click(function(){
             idRoomNumber = i-1;
             if(username!="" && unableJoinRoom == false){

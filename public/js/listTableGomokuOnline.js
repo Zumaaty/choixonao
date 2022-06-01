@@ -4,7 +4,7 @@ let unableJoinRoom = false;
 $(document).ready(function(){
     let username = "";
     //
-    let roomNum = 12;
+    let roomNum = 20;
     let arrRoom = [];
     $(".table-image").attr("src", "../Images/tables/table-0.png");
     socket.emit("client-join-room",{idRoomNumber:idRoomNumber,username:username});
